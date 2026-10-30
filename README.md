@@ -12,18 +12,18 @@ The project targets `net8.0` even though the SDK is .NET 10.
 ## Build
 
 ```sh
-dotnet build Ra2CsfFileCLI.csproj -c Release
+dotnet build -c Release
 ```
 
 ## Usage
 
 ```text
-Ra2CsfFileCLI csf2ini <input.csf> [-o|--output <output.ini>]
+dotnet Ra2CsfFileCLI.dll csf2ini <input.csf> [-o|--output <output.ini>]
                                    [--order-by-key]
                                    [--no-1252-read]
                                    [-f|--force]
 
-Ra2CsfFileCLI ini2csf <input.ini> [-o|--output <output.csf>]
+dotnet Ra2CsfFileCLI.dll ini2csf <input.ini> [-o|--output <output.csf>]
                                    [--order-by-key]
                                    [--no-1252-write]
                                    [-f|--force]
