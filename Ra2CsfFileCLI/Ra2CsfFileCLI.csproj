@@ -13,6 +13,8 @@
     <IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
     <IsPackable>false</IsPackable>
     <Description>Convert Red Alert 2 .csf string tables to and from SadPencil.Ra2CsfFile .ini files.</Description>
+    <!-- This project uses English only -->
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
   </PropertyGroup>
 
   <ItemGroup>
